@@ -13,7 +13,7 @@ class TicTacToe {
     }
 
     getCurrentPlayerSymbol() {
-        return this.playerSymbol;
+        return 'x';
     }
 
     nextTurn(rowIndex, columnIndex) {
