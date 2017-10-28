@@ -1,4 +1,3 @@
-
 class TicTacToe {
     constructor() {
         this.playerSymbol = 'x';
@@ -22,9 +21,10 @@ class TicTacToe {
     }
 
     nextTurn(rowIndex, columnIndex) {
-        this.counter++;
+       
         if(this.field[rowIndex][columnIndex] === null)
          {
+              this.counter++;
         this.field[rowIndex][columnIndex] = this.playerSymbol;
         if(this.playerSymbol === "x")
         {
