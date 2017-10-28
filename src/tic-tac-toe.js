@@ -2,7 +2,11 @@ class TicTacToe {
     constructor() {
         this.playerSymbol = "x";
         this.counter = 0;
-        this. field = [3][3];
+        this. field = [3];
+        for(var i = 0; i < 3; i++)
+        {
+            this.field[i] = [];
+        }
         for(var i = 0; i < 3; i++)
         {
             for(var j = 0; j < 3; j++)
