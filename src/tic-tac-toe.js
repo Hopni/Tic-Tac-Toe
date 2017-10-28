@@ -51,21 +51,21 @@ class TicTacToe {
     getWinner() {
         for(var i = 0; i < 3; i++)
         {
-            if(this.field[i][0] === this.field[i][1] === this.field[i][2] && (this.field[i][0] !== null))
+            if(this.field[i][0] === this.field[i][1] === this.field[i][2] !== null)
             {
                 return this.field[i][0];
             }
-            if(this.field[0][i] === this.field[1][i] === this.field[2][i] && (this.field[0][i] !== null))
+            if(this.field[0][i] === this.field[1][i] === this.field[2][i] !== null)
             {
                 return this.field[0][i];
             }
             
         }
-        if(this.field[0][0] === this.field[1][1] === this.field[2][2] && (this.field[i][0] && (this.field[0][0] !== null))
+        if(this.field[0][0] === this.field[1][1] === this.field[2][2] !== null)
         {
             return this.field[0][0];
         }
-        if(this.field[0][2] === this.field[1][1] === this.field[2][0] && (this.field[1][1] !== null))
+        if(this.field[0][2] === this.field[1][1] === this.field[2][0] !== null)
         {
             return true;
         }
