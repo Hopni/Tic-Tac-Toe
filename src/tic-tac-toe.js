@@ -1,6 +1,6 @@
 class TicTacToe {
     constructor() {
-        this.playerSymbol = "x";
+        this.playerSymbol = 'x';
         this.counter = 0;
         this. field = [3];
         for(var i = 0; i < 3; i++)
