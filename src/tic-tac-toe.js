@@ -98,19 +98,4 @@ class TicTacToe {
     }
 }
 
-//module.exports = TicTacToe;
-var game = new TicTacToe();
-game.nextTurn(0, 0);
-game.nextTurn(0, 1)
-var a = game.getFieldValue(0, 2);
-a = game.getFieldValue(1, 2);
-a = game.getWinner();
-game.nextTurn(1, 0);
-game.nextTurn(1, 1);
-game.nextTurn(2, 2);
-game.nextTurn(2, 0);
-game.nextTurn(2, 1);
-game.nextTurn(0, 2);
-game.nextTurn(1, 2);
-a=game.getWinner();
-a = game.isDraw();
+module.exports = TicTacToe;
