@@ -64,7 +64,7 @@ class TicTacToe {
         {
             return this.field[0][0];
         }
-        if((this.field[0][2] === this.field[1][1]) && (this.field[0][2] === this.field[2][2]) && (this.field[0][2] !== null))
+        if((this.field[0][2] === this.field[1][1]) && (this.field[0][2] === this.field[2][0]) && (this.field[0][2] !== null))
         {
             return this.field[0][2];
         }
